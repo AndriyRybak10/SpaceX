@@ -61,7 +61,7 @@
 .title {
     font-size: 64px;
     text-align: center;
-    margin-top: 67px;
+    margin: 0 auto;
     font-weight: normal;
 }
 
@@ -71,7 +71,7 @@
     text-align: center;
     text-transform: lowercase;
     height: 44px;
-    margin-top: 26px;
+    margin: 0 auto;
 }
 
 .earth {
@@ -125,7 +125,7 @@
     list-style: none;
 }
 
-.falcon-parameters-item{
+.falcon-parameters-item {
     margin-bottom: px;
 }
 
@@ -186,25 +186,274 @@
     font-size: 18px;
     color: #fff;
 }
-.email{
-font-size: 18px;
-color: #808080;
-margin-left: 492px;
-margin-top: 28px;
+
+.email {
+    font-size: 18px;
+    color: #808080;
+    margin-left: 492px;
+    margin-top: 28px;
 }
-.btn{
+
+.btn {
     font-family: Roboto;
-font-size: 18px;
-text-align: center;
-vertical-align: middle;
-height: 21px;
-color: #ffffff;
-background: #000;
-margin-top: 50px;
-margin-left: 677px;
-border: none;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    height: 21px;
+    color: #ffffff;
+    background: #000;
+    margin-top: 50px;
+    margin-left: 677px;
+    border: none;
 }
-.btn-border{
+
+.btn-border {
     margin-top: -37px;
     margin-left: 590px;
+}
+
+
+@media screen and (max-width:1439px) {
+    .conteiner {
+        width: 768px;
+        height: 2359px;
+    }
+
+    .header {
+        height: 300px;
+        align-items: flex-start;
+        padding: 50px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    .main {
+        height: 800px;
+    }
+
+    .earth {
+        width: 768px;
+    }
+
+    .falcon {
+        height: 1000px;
+    }
+
+
+    .falkon-heavy-overwiew {
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    .overwiew-title {
+        height: 68px;
+        width: 177px;
+    }
+
+
+    .falcon-parameters {
+        width: 40%;
+    }
+
+    .left-col {
+        margin-left: 40px;
+    }
+
+    .falcon-parameters-item {
+        margin-bottom: 20px;
+    }
+
+    .falcon-parameters-item span {
+        color: #808080;
+    }
+
+    .rocket {
+        width: 322px;
+        margin-left: 450px;
+        margin-top: -2500px;
+    }
+
+    .up {
+        margin-left: 40px;
+
+    }
+
+    .up-txt {
+        margin-left: 40px;
+
+    }
+
+    .footer {
+        height: 300px;
+    }
+
+    .logo2 {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .footer-content {
+        margin-top: 20;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .email {
+        margin-top: 25;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        margin-top: 30px;
+        margin-left: 335px;
+    }
+
+    .btn-border {
+        margin-top: -40px;
+        margin-left: 250px;
+    }
+
+
+
+}
+
+@media screen and (max-width:767px) {
+    .conteiner {
+        width: 360px;
+        height: 2700px;
+    }
+
+    .header {
+        height: 250px;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+    .main {
+        height: 400px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .txt {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .earth {
+        width: 360px;
+    }
+
+    .falcon {
+        height: 1400px;
+    }
+
+    .falcon-overwiew {
+        height: 260px;
+    }
+
+    .falkon-heavy-overwiew {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .overwiew-title {
+        height: 68px;
+        width: 177px;
+    }
+
+    .overview-text {
+        display: flex;
+        width: 603px;
+        font-size: 10px;
+        line-height: 180%;
+        text-decoration: none;
+
+    }
+
+    .falcon-parameters {
+        width: 20%;
+    }
+
+    .left-col {
+        list-style: none;
+        margin-left: 10px;
+    }
+
+    .right-col {
+        list-style: none;
+    }
+
+    .falcon-parameters-item {
+        margin-bottom: 5px;
+    }
+
+
+    .rocket {
+        width: 150px;
+        
+    }
+
+    .up {
+        margin-left: 40px;
+
+    }
+
+    .up-txt {
+        margin-left: 40px;
+
+    }
+
+    .footer {
+        height: 300px;
+    }
+
+    .logo2 {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .footer-content {
+        margin-top: 20;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .email {
+        margin-top: 25;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn {
+        margin-top: 30px;
+        margin-left: 335px;
+    }
+
+    .btn-border {
+        margin-top: -40px;
+        margin-left: 250px;
+    }
 }
