@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -159,7 +163,7 @@
 .logo2 {
     width: 138;
     height: 16;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 651px;
 }
 
@@ -211,6 +215,12 @@
     margin-left: 590px;
 }
 
+.to-top {
+    height: 60px;
+    display: flex;
+    margin-top: -45px;
+    margin-left: 170px;
+}
 
 @media screen and (max-width:1439px) {
     .conteiner {
@@ -240,7 +250,7 @@
     }
 
     .falcon {
-        height: 1050px;
+        height: 1150px;
     }
 
 
@@ -322,8 +332,10 @@
         margin-left: 250px;
     }
 
-
-
+    .to-top {
+        height: 40px;
+        margin-left: 40px;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -437,9 +449,11 @@
         display: flex;
         justify-content: center;
     }
-    .nav-link2{
+
+    .nav-link2 {
         font-size: 9px;
     }
+
     .email {
         margin-top: 20px;
         margin-left: auto;
@@ -456,13 +470,14 @@
     }
 
     .btn-border {
-        display: flex;
         width: 140px;
         margin-top: -30px;
         margin-left: 110px;
     }
-    .to-top{
-        display: flex;
-        margin-top: -25px;
+
+    .to-top {
+        height: 27px;
+        margin-top: -28px;
+        margin-left: 15px;
     }
 }
