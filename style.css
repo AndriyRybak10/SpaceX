@@ -10,7 +10,7 @@
 .body {
     font-family: Roboto;
     color: #ffffff;
-
+    background: #010101;
 }
 
 .conteiner {
@@ -33,9 +33,6 @@
     width: 1231px;
     height: 17px;
 }
-
-
-
 
 .nav {
     display: flex;
@@ -105,7 +102,7 @@
 
 .overview-text {
     display: flex;
-    width: 603px;
+    width: 600px;
     font-size: 18px;
     line-height: 180%;
     text-decoration: none;
@@ -147,10 +144,11 @@
 }
 
 .up-txt {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 180%;
     margin-top: 45px;
     margin-left: 149px;
+    width: 600px;
 
 }
 
@@ -208,7 +206,8 @@
 }
 
 .btn-border {
-    margin-top: -37px;
+    display: flex;
+    margin-top: -40px;
     margin-left: 590px;
 }
 
@@ -216,7 +215,7 @@
 @media screen and (max-width:1439px) {
     .conteiner {
         width: 768px;
-        height: 2359px;
+        height: 2400px;
     }
 
     .header {
@@ -241,7 +240,7 @@
     }
 
     .falcon {
-        height: 1000px;
+        height: 1050px;
     }
 
 
@@ -285,11 +284,12 @@
 
     .up-txt {
         margin-left: 40px;
+        width: 350px;
 
     }
 
     .footer {
-        height: 300px;
+        height: 400px;
     }
 
     .logo2 {
@@ -329,7 +329,7 @@
 @media screen and (max-width:767px) {
     .conteiner {
         width: 360px;
-        height: 2700px;
+        height: 1470px;
     }
 
     .header {
@@ -363,17 +363,19 @@
     }
 
     .falcon {
-        height: 1400px;
+        height: 650px;
     }
 
     .falcon-overwiew {
         height: 260px;
+        width: 200px;
     }
 
     .falkon-heavy-overwiew {
         font-size: 20px;
         margin-top: 20px;
         margin-left: 10px;
+        width: 360px;
     }
 
     .overwiew-title {
@@ -382,12 +384,7 @@
     }
 
     .overview-text {
-        display: flex;
-        width: 603px;
         font-size: 10px;
-        line-height: 180%;
-        text-decoration: none;
-
     }
 
     .falcon-parameters {
@@ -395,12 +392,7 @@
     }
 
     .left-col {
-        list-style: none;
         margin-left: 10px;
-    }
-
-    .right-col {
-        list-style: none;
     }
 
     .falcon-parameters-item {
@@ -410,16 +402,21 @@
 
     .rocket {
         width: 150px;
-        
+        margin-left: 220px;
+        margin-top: -2000px;
     }
 
     .up {
-        margin-left: 40px;
-
+        font-size: 20px;
+        margin-top: 40px;
+        margin-left: 10px
     }
 
     .up-txt {
-        margin-left: 40px;
+        width: 240px;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 20px;
 
     }
 
@@ -430,30 +427,42 @@
     .logo2 {
         display: flex;
         margin: 0 auto;
+        width: 110px;
         justify-content: center;
     }
 
     .footer-content {
-        margin-top: 20;
+        margin-top: 20px;
         margin-left: auto;
         display: flex;
         justify-content: center;
     }
-
+    .nav-link2{
+        font-size: 9px;
+    }
     .email {
-        margin-top: 25;
+        margin-top: 20px;
         margin-left: auto;
         display: flex;
         justify-content: center;
+        font-size: 12px;
     }
 
     .btn {
-        margin-top: 30px;
-        margin-left: 335px;
+        display: flex;
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: 150px;
     }
 
     .btn-border {
-        margin-top: -40px;
-        margin-left: 250px;
+        display: flex;
+        width: 140px;
+        margin-top: -30px;
+        margin-left: 110px;
+    }
+    .to-top{
+        display: flex;
+        margin-top: -25px;
     }
 }
