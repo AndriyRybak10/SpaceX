@@ -82,6 +82,7 @@ html {
 .falcon {
     height: 1718px;
     display: flex;
+    overflow-x: hidden;
 }
 
 .falcon-overwiew {
@@ -207,6 +208,7 @@ html {
     margin-top: 50px;
     margin-left: 677px;
     border: none;
+    cursor: pointer;
 }
 
 .btn-border {
@@ -282,9 +284,10 @@ html {
     }
 
     .rocket {
+        display: flex;
         width: 322px;
         margin-left: 450px;
-        margin-top: -2500px;
+        margin-top: -1050px;
     }
 
     .up {
@@ -413,9 +416,10 @@ html {
 
 
     .rocket {
+        display: flex;
         width: 150px;
         margin-left: 220px;
-        margin-top: -2000px;
+        margin-top: -570px;
     }
 
     .up {
