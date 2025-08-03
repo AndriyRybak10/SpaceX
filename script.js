@@ -39,11 +39,24 @@ const m = document.querySelector(".min")
 const h = document.querySelector(".hour")
 
 setInterval(() => {
-   const now= new Date()
-   const sec= now.getSeconds()
-   const min= now.getMinutes()
-   const hs= now.getHours()
-   s.style.transform= `rotate(${sec*6}deg)`
-   m.style.transform= `rotate(${min*6+sec*0.1}deg)`
-   h.style.transform= `rotate(${hs*30+min*0.5}deg)`
+   const now = new Date()
+   const sec = now.getSeconds()
+   const min = now.getMinutes()
+   const hs = now.getHours()
+   s.style.transform = `rotate(${sec * 6}deg)`
+   m.style.transform = `rotate(${min * 6 + sec * 0.1}deg)`
+   h.style.transform = `rotate(${hs * 30 + min * 0.5}deg)`
 }, 1000)
+
+
+document.addEventListener("DOMContentLoaded", () => {
+
+   let loader = document.querySelector(".loader");
+   let container = document.querySelector(".conteiner");
+
+   setTimeout(() => {
+      loader.style.opacity = "0";
+      container.style.opacity = "1";
+      
+   }, 1000);
+});
