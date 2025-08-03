@@ -2,92 +2,125 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my project👍</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SpaceX</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.ico" type>
 </head>
 
 <body id="top" class="body">
-    <div class="conteiner">
+	<div class="conteiner">
 
-        <header class="header">
-            <div class="header-content">
-                <a href="index.html"><img class="logo" src="logo.svg" alt=""></a>
-                <ul class="nav">
-                    <li class="nav-item"><a href="#main-title" class="nav-link">Falcon 9</a></li>
-                    <li class="nav-item"><a href="#earth" class="nav-link">Falcon Heavy</a></li>
-                    <li class="nav-item"><a href="#falkon-heavy-overwiew" class="nav-link">Dragon</a></li>
-                    <li class="nav-item"><a href="#stats" class="nav-link">Updates</a></li>
-                </ul>
-                <ul class="nav">
-                    <li class="nav-item"><a href="#up" class="nav-link gray-link">About</a></li>
-                    <li class="nav-item"><a href="#uptxt" class="nav-link gray-link">Gallery</a></li>
-                    <li class="nav-item"><a href="#footer" class="nav-link gray-link">Shop</a></li>
-                </ul>
-            </div>
-        </header>
+		<header class="header">
+			<button class="uaButton" onclick="changeLanguageUa()"><img src="ua.svg" alt=""></button>
+			<button class="engButton" onclick="changeLanguageEng()"><img src="gb.svg" alt=""></button>
+			<div class="header-content">
+				<a href="index.html"><img class="logo" src="logo.svg" alt=""></a>
+				<ul class="nav">
+					<li class="nav-item"><a href="#main-title" class="nav-link target">Falcon 9</a></li>
+					<li class="nav-item"><a href="#earth" class="nav-link target">Falcon Heavy</a></li>
+					<li class="nav-item"><a href="#falkon-heavy-overwiew" class="nav-link target">Dragon</a></li>
+					<li class="nav-item"><a href="#stats" class="nav-link target">Updates</a></li>
+				</ul>
+				<ul class="nav">
+					<li class="nav-item"><a href="#up" class="nav-link gray-link target">About</a></li>
+					<li class="nav-item"><a href="#uptxt" class="nav-link gray-link target">Gallery</a></li>
+					<li class="nav-item"><a href="#footer" class="nav-link gray-link target">Shop</a></li>
+				</ul>
+			</div>
+		</header>
 
-        <main class="main">
-            <h1 class="title" id="main-title">Falcon Heavy</h1>
-            <p class="txt">The most powerful operational rocket<br>in the world by a factor of two</p>
-            <img src="Earth.png" id="earth" alt="" class="earth">
-        </main>
+		<main class="main">
+			<div class="clock">
+				<div class="number">1</div>
+				<div class="number">2</div>
+				<div class="number">3</div>
+				<div class="number">4</div>
+				<div class="number">5</div>
+				<div class="number">6</div>
+				<div class="number">7</div>
+				<div class="number">8</div>
+				<div class="number">9</div>
+				<div class="number">10</div>
+				<div class="number">11</div>
+				<div class="number">12</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="line">|</div>
+				<div class="center"></div>
+				<div class="sec"></div>
+				<div class="min"></div>
+				<div class="hour"></div>
+			</div>
+			<h1 class="title target" id="main-title">Falcon Heavy</h1>
+			<p class="txt target">The most powerful operational rocket<br>in the world by a factor of two</p>
+			<img src="Earth.png" id="earth" alt="" class="earth">
+		</main>
 
-        <section class="falcon">
-            <div class="falcon-overview">
-                <h2 id="falkon-heavy-overwiew" class="falkon-heavy-overwiew">Falcon Heavy <br> Overview</h2>
-                <div class="overwiew-title"></div>
-                <div id="stats" class="overview-text">
-                    <ul class="falcon-parameters left-col">
-                        <li class="falcon-parameters-item">HEIGHT</li>
-                        <li class="falcon-parameters-item">DIAMETER</li>
-                        <li class="falcon-parameters-item">MASS</li>
-                        <li class="falcon-parameters-item">PAYLOAD TO LEO</li>
-                        <li class="falcon-parameters-item">PAYLOAD TO GTO</li>
-                        <li class="falcon-parameters-item">PAYLOAD TO MARS</li>
-                    </ul>
-                    <ul class="falcon-parameters right-col">
-                        <li class="falcon-parameters-item">12.2 m /<span> 229.6 ft</span></li>
-                        <li class="falcon-parameters-item">70 m /<span> 39.9 ft</span></li>
-                        <li class="falcon-parameters-item">1,420,788 kg /<span> 3,125,735 lb</span></li>
-                        <li class="falcon-parameters-item">63,800 kg /<span> 140,660 lb</span></li>
-                        <li class="falcon-parameters-item">26,700 kg /<span> 58,860 lb</span></li>
-                        <li class="falcon-parameters-item">16,800 kg /<span> 37,040 lb</span></li>
-                    </ul>
-                </div>
-                <h2 class="up" id="up">UNMATCHED <br> PERFORMANCE</h2>
-                <p class="up-txt" id="uptxt">With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the
-                    mostcapable rocket flying. By
-                    comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747
-                    aircraft at full power.
-                    Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner complete with
-                    passengers, luggage and fuel to orbit.</p>
-                <img class="rocket" src="rocket.png" alt="">
-            </div>
-        </section>
+		<section class="falcon">
+			<div class="falcon-overview">
+				<h2 id="falkon-heavy-overwiew" class="falkon-heavy-overwiew target">Falcon Heavy <br> Overview</h2>
+				<div class="overwiew-title"></div>
+				<div id="stats" class="overview-text">
+					<ul class="falcon-parameters left-col">
+						<li class="falcon-parameters-item target">HEIGHT</li>
+						<li class="falcon-parameters-item target">DIAMETER</li>
+						<li class="falcon-parameters-item target">MASS</li>
+						<li class="falcon-parameters-item target">PAYLOAD TO LEO</li>
+						<li class="falcon-parameters-item target">PAYLOAD TO GTO</li>
+						<li class="falcon-parameters-item target">PAYLOAD TO MARS</li>
+					</ul>
+					<ul class="falcon-parameters right-col">
+						<li class="falcon-parameters-item target">12.2 m /<span> 229.6 ft</span></li>
+						<li class="falcon-parameters-item target">70 m /<span> 39.9 ft</span></li>
+						<li class="falcon-parameters-item target">1,420,788 kg /<span> 3,125,735 lb</span></li>
+						<li class="falcon-parameters-item target">63,800 kg /<span> 140,660 lb</span></li>
+						<li class="falcon-parameters-item target">26,700 kg /<span> 58,860 lb</span></li>
+						<li class="falcon-parameters-item target">16,800 kg /<span> 37,040 lb</span></li>
+					</ul>
+				</div>
+				<h2 class="up target" id="up">UNMATCHED <br> PERFORMANCE</h2>
+				<p class="up-txt target" id="uptxt">With more than 5 million pounds of thrust at liftoff, Falcon Heavy
+					is the
+					mostcapable rocket flying. By
+					comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747
+					aircraft at full power.
+					Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner complete with
+					passengers, luggage and fuel to orbit.</p>
+				<img class="rocket" src="rocket.png" alt="">
+			</div>
+		</section>
 
-        <footer class="footer" id="footer">
-            <img class="logo2" src="logo.svg" alt="">
-            <div class="footer-content">
-                <ul class="nav2">
-                    <li class="nav-items"><a href="" class="nav-link2">Twitter</a></li>
-                    <li class="nav-items"><a href="" class="nav-link2">Youtube</a></li>
-                    <li class="nav-items"><a href="" class="nav-link2">Instagram</a></li>
-                    <li class="nav-items"><a href="" class="nav-link2">Flickr</a></li>
-                    <li class="nav-items"><a href="" class="nav-link2">LinkedIn</a></li>
-                    <li class="nav-items"><a href="" class="nav-link2">Privacy</a></li>
-                    <li class="nav-items"><a href="" class="nav-link2">Policy</a></li>
-                </ul>
-            </div class="button">
-            <p class="email">For additional questions, contact rideshare@spacex.com</p>
-            <button class="btn">Contact us</button>
-            <img src="Button border.png" alt="" class="btn-border">
-            <a href="#top" class="to-top"><img src="arrow.svg" alt=""></a>
-        </footer>
+		<footer class="footer" id="footer">
+			<img class="logo2" src="logo.svg" alt="">
+			<div class="footer-content">
+				<ul class="nav2">
+					<li class="na"><a href="" class="nav-link2 target">Twitter</a></li>
+					<li class="na"><a href="" class="nav-link2 target">Youtube</a></li>
+					<li class="na"><a href="" class="nav-link2 target">Instagram</a></li>
+					<li class="na"><a href="" class="nav-link2 target">Flickr</a></li>
+					<li class="na"><a href="" class="nav-link2 target">LinkedIn</a></li>
+					<li class="na"><a href="" class="nav-link2 target">Privacy</a></li>
+					<li class="na"><a href="" class="nav-link2 target">Policy</a></li>
+				</ul>
+			</div class="button">
+			<p class="email target">For additional questions, contact rideshare@spacex.com</p>
+			<button class="btn">Contact us</button>
+			<img src="Button border.png" alt="" class="btn-border">
+			<a href="#top" class="to-top"><img src="arrow.svg" alt=""></a>
+		</footer>
 
-        <script src="script.js"></script>
+		<script src="script.js"></script>
 </body>
 
 </html>
