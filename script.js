@@ -60,3 +60,19 @@ document.addEventListener("DOMContentLoaded", () => {
       
    }, 1000);
 });
+
+document.querySelector('.to-top').addEventListener('click', function(e) {
+  e.preventDefault();
+  const button = this;
+  
+  // Додаємо клас для анімації
+  button.classList.add('clicked');
+  
+  // Плавне прокручування до верху
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  
+  // Повернення кнопки до початкового стану після анімації
+  setTimeout(() => {
+    button.classList.remove('clicked');
+  }, 500); // Тривалість відповідає transition (0.5s)
+});
